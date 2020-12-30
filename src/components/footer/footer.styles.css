@@ -139,7 +139,16 @@
 
 @media screen and (max-width: 820px) {
   .footer-links {
-    padding-top: 2rem;
+    padding: 1rem;
+    overflow: hidden;
+  }
+
+  .footer-link-items {
+    margin: 8px;
+    padding: 8px;
+    text-align: left;
+    width: 100%;
+    justify-content: space-around;
   }
 
   .footer-input {

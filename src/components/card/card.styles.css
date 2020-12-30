@@ -1,6 +1,6 @@
 .cards {
   padding: 4rem;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.96)
 }
 
 h1 {
@@ -114,5 +114,11 @@ h1 {
 @media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .cards {
+    padding: 3rem 0 0;
   }
 }

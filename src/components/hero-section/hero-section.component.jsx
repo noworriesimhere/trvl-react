@@ -5,7 +5,9 @@ import './hero-section.styles.css';
 const HeroSection = () => {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
+      <div className='hero__video-wrap'>
+        <video src='/videos/video-1.mp4' autoPlay loop muted playsInline />
+      </div>
       <h1>Modernize Your Business</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
