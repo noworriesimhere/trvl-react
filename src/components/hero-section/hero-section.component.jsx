@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div className='hero-container'>
       <video src='/videos/video-1.mp4' autoPlay loop muted />
-      <h1>Adventure Awaits</h1>
+      <h1>Modernize Your Business</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
         <Button
@@ -21,7 +21,7 @@ const HeroSection = () => {
           buttonStyle='btn--primary'
           buttonSize='btn--large'
         >
-          Watch Trailer <i className='far fa-play-circle' />
+          Learn About Us <i className='far fa-play-circle' />
         </Button>
       </div>
     </div>
